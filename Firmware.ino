@@ -29,7 +29,7 @@ const int timeout = 10000;       //define timeout of 10 sec
 char menuOption = 0;
 long time0;
 
-// Setup the essentials for your circuit to work. It runs first every time your circuit is powered with electricity.
+// Setup the essentials for the circuit to work. It runs first every time your circuit is powered with electricity.
 void setup() 
 {
     // Setup Serial which is useful for debugging
@@ -48,7 +48,7 @@ void setup()
     
 }
 
-// Main logic of the circuit. It defines the interaction between the components you selected. After setup, it runs over and over again, in an eternal loop.
+// Main logic of the circuit. It defines the interaction between the components selected. After setup, it runs over and over again, in an eternal loop.
 void loop() 
 {
     
